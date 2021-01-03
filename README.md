@@ -13,7 +13,9 @@ NewCmd NewPyCmd
 
 ```
 ## How to use It
+
 All command's needs to be an bash file in the Cmds folder without extension ex (create not create.sh)
+*Run Tools from Desktop*
 
 To Delete an command use
 `DeleteCmd TheCmdYouWantToDelete`
