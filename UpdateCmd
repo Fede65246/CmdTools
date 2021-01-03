@@ -1,0 +1,10 @@
+finame=$1
+echo You entered $finame
+cd /bin
+sudo rm $finame
+echo Deleted Old Cmd
+sudo cp  /home/federico/Desktop/bACKUP/$finame /bin/
+echo Moved New to commands
+sudo chmod 775 $finame
+echo Build
+echo Test with $finame

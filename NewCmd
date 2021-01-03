@@ -1,0 +1,7 @@
+finame=$1
+echo You entered $finame
+sudo cp  /home/federico/Desktop/bACKUP/$finame /bin/
+echo Moved to commands
+sudo chmod 775 /bin/$finame
+echo Build
+echo Test with $finame
