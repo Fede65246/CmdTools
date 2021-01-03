@@ -14,12 +14,12 @@ NewCmd NewPyCmd
 ## How to use It
 
 All command's needs to be an bash file in the Cmds folder without extension (es: create not create.sh)\n
-To Delete an command use\n
-`DeleteCmd TheCmdYouWantToDelete`\n
-To Add an command use\n
-`NewCmd TheCmdYouWantToAdd`\n
-To Update an command use\n
-`UpdateCmd TheCmdYouWantToDelete`\n
-To create an command from an python script create TheCmdYouWantToUse.py in the Cmds folder and run\n
-`NewPyCmd TheCmdYouWantToUse`\n
+To Delete an command use\
+`DeleteCmd TheCmdYouWantToDelete`\
+To Add an command use\
+`NewCmd TheCmdYouWantToAdd`\
+To Update an command use\
+`UpdateCmd TheCmdYouWantToDelete`\
+To create an command from an python script create TheCmdYouWantToUse.py in the Cmds folder and run\
+`NewPyCmd TheCmdYouWantToUse`\
 It will be called TheCmdYouWantToUse
